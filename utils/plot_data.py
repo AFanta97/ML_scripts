@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 
 # Import the data loader from your utility module
-from load_data_to_dataframe import load_data_to_dataframe
+from load_data_to_df import load_data_to_dataframe
 
 def plot_data(df, output_path_base, save_svg=False, show_plot=False):
     # Sanity check: no missing values
